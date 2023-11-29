@@ -476,21 +476,24 @@
 
   /* Existing styles */
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
     html {
-      font-size: 8px; /* Adjust the font size for smaller screens */
+      font-size: 8px; 
+
+      /* Adjust the font size for smaller screens */
     }
   
     .header-wrapper {
-      padding: 1rem; /* Adjust padding for the header */
+        
+        padding: 1rem; /* Adjust padding for the header */
     }
   
     .header-wrapper .title-wrapper {
-      width: 80%; /* Adjust the width of the title wrapper */
+        width: 80%; /* Adjust the width of the title wrapper */
     }
   
     .slider-content {
-      margin-top: 5px; /* Adjust the margin-top for the slider content */
+        margin-top: 5px; /* Adjust the margin-top for the slider content */
     }
   
     .slider-content .title-wrapper h1 {
@@ -515,6 +518,9 @@
   
     .slider-content .title-wrapper h1 {
       font-size: 6rem; /* Adjust the font size for mobile screens */
+    }
+    .video-container{
+       display: none;
     }
   
     /* Add more styles as needed for mobile screens */
