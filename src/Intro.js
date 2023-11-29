@@ -6,8 +6,8 @@ const Intro = ()=>{
 
 const navigate= useNavigate();
 
-    return(
-<div className="slider-content">
+    return( 
+<div onClick={()=> navigate("/home")} className="slider-content">
         <div className="video-container">
   <video className="background-video" src={tate} autoPlay loop muted />
 </div>

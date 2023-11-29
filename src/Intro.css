@@ -513,7 +513,9 @@
     }
   
     .slider-content {
-      margin-top: 3px; /* Further adjust the margin-top for mobile screens */
+      margin-top: 3px;
+      
+       /* Further adjust the margin-top for mobile screens */
     }
   
     .slider-content .title-wrapper h1 {
@@ -521,6 +523,10 @@
     }
     .video-container{
        display: none;
+    }
+    
+    .slider-content .title-wrapper{
+        color: white;
     }
   
     /* Add more styles as needed for mobile screens */
