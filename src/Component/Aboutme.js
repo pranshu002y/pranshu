@@ -45,13 +45,13 @@ function Aboutme() {
                 <p class="mb-0 ">Years Experiance</p>
               </div>
             </div>
-            <div class="c6">
+            {/* <div class="c6">
               <div class="featured">
                 <h4 class="img-cent">
                   <span>0</span>+</h4>
                 <p class="mb-0 ">Happy Clients</p>
               </div>
-            </div>
+            </div> */}
             <div class="c6">
               <div class="featured">
                 <h4 class="img-cent">
