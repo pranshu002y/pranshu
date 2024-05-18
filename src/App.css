@@ -779,7 +779,6 @@ cursor: pointer;
     align-items: center;
   }
   .fot-last{
-    flex-direction: column;
     align-items: center;
   }
   .contact-left{
@@ -791,7 +790,11 @@ cursor: pointer;
   
   
 }
-
+@media (max-width: 320px){
+  .fot-last,.last{
+    font-size: 12px;
+  }
+  }
 
 .foot{
   width: 100%;
@@ -800,3 +803,4 @@ cursor: pointer;
   color:  white;
   align-items: center;
 }
+
