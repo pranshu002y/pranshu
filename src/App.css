@@ -822,11 +822,22 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .about-right {
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
 
-  .services-list-items {
-    flex-basis: 100%;
+  }
+  .services {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+
   }
   .bar,
   .bar1 {
@@ -838,14 +849,6 @@ a:hover {
     padding-right: 3rem;
     padding-left: 1rem;
     align-items: center;
-    
-
-
-  }
-
-  .ham {
-    visibility: visible;
-
   }
 
   .luffy,
@@ -866,59 +869,49 @@ a:hover {
 
   }
 
+
   .about {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
 
-  }
+  } 
+  .ham {
+    visibility: visible;
 
-  .about-right {
-
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-
-  }
-
-  .row1 {
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .services {
-    display: flex;
+  } 
+  .services-list-items {
+    flex-basis: 100%;
     flex-direction: column;
-    width: 100%;
-    height: 500px;
-    overflow: scroll;
-
+    align-items: flex-start;
   }
 
-  .row5 {
 
-    font-size: 10px;
+  .c6 {
+    width: 95%;
   }
 
+  .row-right,
+  .row-left {
+    width: 95%;
+  }
+
+  .testimonal-card {
+    margin: 10px;
+  }
+
+  .testimonal-card-content {
+    padding: 10px;
+  }
   .iscontact {
     flex-direction: column;
     align-items: center;
 
-  }
-
-  .fot-last {
+  }  .fot-last {
     align-items: center;
-  }
-
-  .contact-left {
+  } .contact-left {
     width: auto;
-  }
-
-  .nav-icon {
+  } .nav-icon {
     width: auto;
   }
 
@@ -934,14 +927,26 @@ a:hover {
   align-items: center;
 }
 
-
 }
 
-@media (max-width: 425px) and (max-width: 768px) {
-  .services-list-items {
-    flex-basis: 100%;
+@media (max-width: 480px) {
+  
+  .about-right {
+  
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+
+  }
+  .services {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+
   }
   .bar,
   .bar1 {
@@ -953,14 +958,6 @@ a:hover {
     padding-right: 3rem;
     padding-left: 1rem;
     align-items: center;
-    
-
-
-  }
-
-  .ham {
-    visibility: visible;
-
   }
 
   .luffy,
@@ -981,170 +978,49 @@ a:hover {
 
   }
 
+
   .about {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
 
-  }
+  } 
+  .ham {
+    visibility: visible;
 
-  .about-right {
-
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-
-  }
-
-  .row1 {
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .services {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 500px;
-    overflow: scroll;
-
-  }
-
-  .row5 {
-
-    font-size: 10px;
-  }
-
-  .iscontact {
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .fot-last {
-    align-items: center;
-  }
-
-  .contact-left {
-    width: auto;
-  }
-
-  .nav-icon {
-    width: auto;
-  }
-
-  .fot-last,
-  .last {
-    font-size: 12px;
-  }
-.foot {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  color: white;
-  align-items: center;
-}
-}
-@media (max-width: 320px) and (max-width: 375px) {
+  } 
   .services-list-items {
     flex-basis: 100%;
     flex-direction: column;
     align-items: flex-start;
   }
-  .bar,
-  .bar1 {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    position: absolute;
-    justify-content: space-between;
-    padding-right: 3rem;
-    padding-left: 1rem;
-    align-items: center;
 
 
+  .c6 {
+    width: 95%;
   }
 
-  .ham {
-    visibility: visible;
-
+  .row-right,
+  .row-left {
+    width: 95%;
   }
 
-  .luffy,
-  .nav-items {
-    display: none;
+  .testimonal-card {
+    margin: 10px;
   }
 
-  .hireme,
-  .about-me,
-  .services,
-  .resume,
-  .portfol,
-  .testimonial,
-  .contact,
-  .fotr {
-    margin-left: 0;
-    margin-bottom: 1rem;
-
+  .testimonal-card-content {
+    padding: 10px;
   }
-
-  .about {
-    flex-direction: column;
-    align-items: center;
-    font-size: 12px;
-
-  }
-
-  .about-right {
-
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-
-  }
-
-  .row1 {
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .services {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 500px;
-    overflow: scroll;
-
-  }
-
-  .row5 {
-
-    font-size: 10px;
-  }
-
   .iscontact {
     flex-direction: column;
     align-items: center;
 
-  }
-
-  .fot-last {
+  }  .fot-last {
     align-items: center;
-  }
-
-  .contact-left {
+  } .contact-left {
     width: auto;
-  }
-
-  .nav-icon {
+  } .nav-icon {
     width: auto;
   }
 
@@ -1159,4 +1035,5 @@ a:hover {
   color: white;
   align-items: center;
 }
+
 }

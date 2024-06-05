@@ -449,7 +449,7 @@
 
 
   /* Existing styles */
-
+  
 @media (max-width: 786px) {
     html {
       font-size: 8px; /* Adjust the font size for smaller screens */
@@ -529,6 +529,6 @@
         color: white;
     }
   
-    /* Add more styles as needed for mobile screens */
+    
   }
   
