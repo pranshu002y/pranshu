@@ -168,7 +168,7 @@ body {
 .services,
 .testimonial {
   margin-left: 250px;
-  width: calc(100%-250px);
+  /* width: calc(100%-250px); */
   /* min-height: 100vh; */
   /* border: 2px solid green; */
 }
