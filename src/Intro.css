@@ -504,9 +504,7 @@
   }
   
   @media (max-width: 480px) {
-    html {
-      font-size: 6px; /* Further adjust the font size for mobile screens */
-    }
+   
   
     .header-wrapper {
       padding: 0.5rem; /* Adjust padding for the header on mobile screens */
