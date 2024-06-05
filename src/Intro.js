@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import tate from "./video-bg.mp4";
+import tate from "./New video.mp4";
 import "./Intro.css"
 const Intro = ()=>{
 
@@ -9,7 +9,7 @@ const navigate= useNavigate();
     return( 
 <div onClick={()=> navigate("/home")} className="slider-content">
         <div className="video-container">
-  <video className="background-video" src={tate} autoPlay loop muted />
+  <video className="background-video" src={tate} autoPlay loop />
 </div>
 <div className="slider-wrapper">
   <div className="slider-container">
