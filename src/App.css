@@ -823,6 +823,12 @@ a:hover {
 
 @media (max-width: 768px) {
 
+  .hireme{
+    background-image: url("https://images.unsplash.com/photo-1717319617633-99821a8d8e04?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .services-list-items {
     flex-basis: 100%;
     flex-direction: column;
@@ -943,6 +949,13 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .hireme{
+    background-image: url("https://res.cloudinary.com/dpiatasuq/image/upload/v1717596593/Screenshot_Capture_-_2024-06-05_-_19-38-47_mnav2m.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .bar,
   .bar1 {
     width: 100%;
@@ -1046,6 +1059,11 @@ a:hover {
    }
 }
 @media (max-width: 320px) and (max-width: 375px) {
+  .hireme{
+    background-image: url("https://res.cloudinary.com/dpiatasuq/image/upload/v1717596593/Screenshot_Capture_-_2024-06-05_-_19-38-47_mnav2m.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .services-list-items {
     flex-basis: 100%;
     flex-direction: column;
