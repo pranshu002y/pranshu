@@ -50,17 +50,6 @@ const Resume = () => {
               </p>
             </div>
             <div class="education-box">
-              <p class="year">Jul 2023 - Aug 2023</p>
-              <h3 class="branch ">Business Development Associate </h3>
-              <p class="uni">Minimalix </p>
-              <p class="mb-0 ">
-                I have a deep understanding of market dynamics and the ability
-                to identify and capitalize on growth opportunities.I've
-                successfully nurtured talent, fostered a culture of innovation,
-                and guided my teams to achieve their full potential.
-              </p>
-            </div>
-            <div class="education-box">
               <p class="year">Jan 2023 - Jun 2023</p>
               <h3 class="branch ">Associate Software Developer</h3>
               <p class="uni">Venturepact </p>
