@@ -1026,6 +1026,10 @@ a:hover {
   }
   .education-box{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   
   }
 
@@ -1134,15 +1138,13 @@ a:hover {
 
   }
 
-  .row1 {
-    font-size: 12px;
+ 
+  .education-box{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .education-box{
-    width: 100%;
   
   }
 
