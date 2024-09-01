@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <section className="services-content">
+    <section className="services-content" >
          
     <div className='title mm'>
          <div className='title-behind'>Services</div>
@@ -10,7 +10,7 @@ const Services = () => {
       </div>
       
   <div className="services-list">
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-right">
       <div className="icon">
         <i className="fas fa-palette" />
       </div>
@@ -21,7 +21,7 @@ const Services = () => {
         </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-left">
       <div className="icon">
         <i className="fas fa-desktop"></i>
       </div>
@@ -32,7 +32,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-right">
       <div className="icon">
         <i className="fas fa-paint-brush"></i>
       </div>
@@ -43,7 +43,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-left">
       <div className="icon">
         <i className="fas fa-chart-area"></i>
       </div>
@@ -54,7 +54,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-right">
       <div className="icon">
         <i className="fas fa-bullhorn"></i>
       </div>
@@ -65,7 +65,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-left">
       <div className="icon">
         <i className="fas fa-pencil-ruler"></i>
       </div>
@@ -76,7 +76,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-right">
       <div className="icon">
         <i className="fas fa-pencil-ruler"></i>
       </div>
@@ -87,7 +87,7 @@ const Services = () => {
       </p>
       </div>
     </div>
-    <div className="services-list-items">
+    <div className="services-list-items" data-aos="fade-left">
       <div className="icon">
         <i className="fas fa-pencil-ruler"></i>
       </div>

@@ -11,7 +11,7 @@ function Aboutme() {
         <div className='title-front'>KNOW ME MORE</div>
       </div>
       <div className='about'>
-        <div className='about-left'>
+        <div className='about-left' data-aos="zoom-out">
           <div className='about-left-title'>I'm <span class="tp">Pranshu Yadav,</span> Full Stack Developer</div>
           <p className='about-left-content'>
             I help you build brand for your business at an affordable price.I'm a skilled MERN stack developer. With a passion for coding and a keen eye for detail, I specialize in crafting web applications using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. I'm dedicated to delivering efficient, scalable, and user-friendly solutions that meet the unique needs of clients. With my strong problem-solving abilities and a drive for continuous learning, I strive to stay up-to-date with the latest technologies and industry trends.
@@ -19,7 +19,7 @@ function Aboutme() {
           <p>Delivering work within time and budget which meets client’s requirements is our moto.
           </p>
         </div>
-        <div className='about-right'>
+        <div className='about-right' data-aos="zoom-in">
           <ul className='about-right-ul'>
             <li className='about-right-li'><span className='about-li-span'>Name:</span>Pranshu Yadav</li>
             

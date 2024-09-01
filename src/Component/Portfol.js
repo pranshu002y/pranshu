@@ -3,14 +3,14 @@ import { useNavigate } from "react-router-dom";
 const Portfol = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div >
       <div className="title">
         <div className="title-behind">PORTFOLIO</div>
         <div className="title-front">PROJECTS</div>
       </div>
 
      
-      <div className="bigcontainer">
+      <div className="bigcontainer" >
         <div className="insideof">
        <a href="https://lms-1.netlify.app/accounts/login"><img src="https://raw.githubusercontent.com/Akg-0007/lMS/main/images/Dashboard.png" alt="lms"/></a>
        <a href="https://scout-verse.vercel.app/"><img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1699117685/Screenshot_1323_ume1ow.png" alt="" /></a>

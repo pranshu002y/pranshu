@@ -12,28 +12,28 @@ const Resume = () => {
       <div>
         <div className="row1">
           <div className="row-right">
-            <h2 className="edu">MY EDUCATION</h2>
+            <h2 className="edu" data-aos="fade-up-right">MY EDUCATION</h2>
 
-            <div class="education-box">
+            <div class="education-box" data-aos="fade-up-right">
               <p class="year ">2019 - 2023</p>
               <h3 class="branch ">Computer Science And Engineering</h3>
               <p class="uni">Lovely Professional University</p>
               <p class="mb-0 ">Bachelor Of Technology</p>
             </div>
-            <div class="education-box">
+            <div class="education-box" data-aos="fade-up-right">
               <p class="year">2016 - 2018</p>
               <h3 class="branch ">Intermediate</h3>
               <p class="uni">R L B School</p>
               <p class="mb-0 "></p>
             </div>
-            <div class="education-box">
+            <div class="education-box" data-aos="fade-up-right">
               <p class="year">2016</p>
               <h3 class="branch ">High School</h3>
               <p class="uni"> R L B School</p>
               <p class="mb-0 "></p>
             </div>
           </div>
-          <div className="row-left">
+          <div className="row-left" data-aos="fade-down-left">
             <h2 className="edu">MY EXPERENCIES</h2>
             <div class="education-box">
               <p class="year">Sep 2023 - Present</p>
@@ -49,7 +49,7 @@ const Resume = () => {
                 accordingly.
               </p>
             </div>
-            <div class="education-box">
+            <div class="education-box" data-aos="fade-down-left">
               <p class="year">Jan 2023 - Jun 2023</p>
               <h3 class="branch ">Associate Software Developer</h3>
               <p class="uni">Venturepact </p>
