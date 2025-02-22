@@ -31,7 +31,7 @@ const Home=()=>{
           <Contact/>
         </div>
         <div className='container fotr' id='fotr1'>
-          <Fotter/>
+          {/* <Fotter/> */}
         </div>
         
         </div>  
