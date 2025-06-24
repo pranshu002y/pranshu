@@ -1,6 +1,6 @@
 
   
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
      html {
         font-size: 10px;
         /* padding: 2rem 3rem; */
@@ -453,6 +453,8 @@
 @media (max-width: 786px) {
     html {
       font-size: 8px; /* Adjust the font size for smaller screens */
+     
+      
     }
   
     .header-wrapper {
@@ -461,10 +463,12 @@
   
     .header-wrapper .title-wrapper {
       width: 80%; /* Adjust the width of the title wrapper */
+      
     }
   
     .slider-content {
       margin-top: 5px; /* Adjust the margin-top for the slider content */
+      
     }
   
     .slider-content .title-wrapper h1 {
@@ -500,23 +504,37 @@
       font-size: 8rem; /* Adjust the font size for smaller screens */
     }
   
+    .title-background{
+        display: none;
+    }
     /* Add more styles as needed for smaller screens */
   }
   
   @media (max-width: 480px) {
    
   
+  
     .header-wrapper {
-      padding: 0.5rem; /* Adjust padding for the header on mobile screens */
+      padding: 0.5rem;
+     
+
+      
+       /* Adjust padding for the header on mobile screens */
+    }
+
+    .title-background{
+        display: none;
     }
   
     .slider-content {
       margin-top: 3px;
-      
+     
+
        /* Further adjust the margin-top for mobile screens */
     }
   
     .slider-content .title-wrapper h1 {
+        
       font-size: 6rem; /* Adjust the font size for mobile screens */
     }
     .video-container{
@@ -525,8 +543,10 @@
     
     .slider-content .title-wrapper{
         color: white;
+        
     }
   
+
     
   }
   

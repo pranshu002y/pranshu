@@ -5,7 +5,13 @@
   box-sizing: border-box;
   padding: 0;
   list-style: none;
+  scrollbar-width: none;
 
+}
+
+::selection {
+  background: black;
+  color: white; 
 }
 
 :root {
@@ -19,6 +25,7 @@ body {
   font-size: 16px !important;
   scroll-behavior: smooth;
   padding: 0 !important;
+  
 }
 
 .top-section {
@@ -168,14 +175,15 @@ body {
 .services,
 .testimonial {
   margin-left: 250px;
-  /* width: calc(100%-250px); */
+  
+  overflow: scroll;
   /* min-height: 100vh; */
   /* border: 2px solid green; */
 }
 
 .fotr {
   margin-left: 250px;
-  width: calc(100%-250px);
+  width: calc(100%- 250px);
   /* min-height: 100vh; */
 }
 
@@ -667,12 +675,23 @@ a:hover {
 }
 
 .cv {
-  margin-left: 37% !important;
+  /* margin-left: 37% !important; */
   margin-bottom: 5% !important;
   margin-top: 5% !important;
   background-color: var(--fc-white);
   color: #6c757d;
   border: 3px solid #6c757d;
+ 
+ 
+
+}
+
+.div-cv{
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .cv:hover {
@@ -909,6 +928,7 @@ a:hover {
   .row5 {
 
     font-size: 10px;
+   
   }
 
   .iscontact {
@@ -1079,7 +1099,10 @@ a:hover {
     background-image: url("https://res.cloudinary.com/dpiatasuq/image/upload/v1717596593/Screenshot_Capture_-_2024-06-05_-_19-38-47_mnav2m.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
+
+ 
   .services-list-items {
     flex-basis: 100%;
     flex-direction: column;
@@ -1121,6 +1144,7 @@ a:hover {
     margin-bottom: 1rem;
 
   }
+
 
   .about {
     flex-direction: column;

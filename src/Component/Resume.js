@@ -95,12 +95,15 @@ const Resume = () => {
             <p className="fw"> TEAM PLAYER | POWER POINT PRESENTATION | ADAPTABLE </p>
            
           </div>
-          <a
+         {/* <div className="div-cv">
+         <a
             href={Resume1}
-            class="btn btn-pri dwn cv"
+            class="btn btn-pri dwn cv "
           >
             Download CV
           </a>
+         </div> */}
+         
         </div>
       </div>
     </div>
