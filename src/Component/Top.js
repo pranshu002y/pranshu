@@ -29,7 +29,7 @@ function rtl1 (e){
       <div className={set ? "bar" : "bar1"}>
 
         <img
-          src="https://res.cloudinary.com/dpiatasuq/image/upload/v1699118974/WhatsApp_Image_2023-11-04_at_10.59.10_PM_nanhix.jpg"
+          src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg"
           alt="lady" className="luffy"
         />
         <div className="bar-title" onClick={()=> navigate("/intro")}>Pranshu Yadav</div>

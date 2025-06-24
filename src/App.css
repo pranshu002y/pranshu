@@ -9,6 +9,8 @@
 
 }
 
+
+
 ::selection {
   background: black;
   color: white; 
@@ -876,8 +878,11 @@ a:hover {
   .luffy,
   .nav-items {
     display: none;
+    
    
   }
+
+
 
   .hireme,
   .about-me,
