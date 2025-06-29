@@ -8,8 +8,17 @@ import Resume from './Component/Resume';
 import Services from './Component/Services';
 import Top from './Component/Top';
 const Home=()=>{
+  
+  const miniCircle = document.getElementById('minicircle');
+document.addEventListener('mousemove', (e) => {
+  miniCircle.style.left = `${e.clientX}px`;
+  miniCircle.style.top = `${e.clientY}px`;
+}); 
+
     return(
-        <div className='main-head'>
+      <>
+       <div id="minicircle"></div>
+       <div className='main-head'>
         <div className='container top-section ' id='top-section1'>
           <Top />
         </div>
@@ -35,6 +44,8 @@ const Home=()=>{
         </div>
         
         </div>  
+      </>
+       
     )
 }
 export default Home;

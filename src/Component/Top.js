@@ -24,8 +24,12 @@ function finc (e){
 function rtl1 (e){
   document.documentElement.style.setProperty('direction', e);
 }
+
+
+
   return (
     <>
+     <div id="minicircle"></div>
       <div className={set ? "bar" : "bar1"}>
 
         <img
