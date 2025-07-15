@@ -1,5 +1,5 @@
 import React from "react";
-import Resume1 from "../../src/pranshu yadav.pdf";
+import Resume1 from "../../src/Pranshu Yadav.pdf";
 
 const Resume = () => {
   return (

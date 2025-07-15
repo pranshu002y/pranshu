@@ -6,7 +6,7 @@ import { FaVolleyballBall } from "react-icons/fa";
 import { FcSettings } from "react-icons/fc";
 import Typewriter from "react-ts-typewriter";
 import { useState ,useEffect} from "react";
-import Resume1 from "../../src/pranshu yadav.pdf";
+import Resume1 from "../../src/Pranshu Yadav.pdf";
 import { useNavigate } from "react-router-dom";
 function Top() {
   const [clicked, isClicked] = useState(false);
