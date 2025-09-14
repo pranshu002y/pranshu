@@ -17,7 +17,7 @@ document.addEventListener('mousemove', (e) => {
 
     return(
       <>
-       <div id="minicircle"></div>
+      
        <div className='main-head'>
         <div className='container top-section ' id='top-section1'>
           <Top />

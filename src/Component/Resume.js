@@ -34,7 +34,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="row-left" data-aos="fade-down-left">
-            <h2 className="edu">MY EXPERENCIES</h2>
+            <h2 className="edu">MY EXPERENCIE</h2>
             <div class="education-box" data-aos="fade-down-left">
               <p class="year">Nov 2024 - Present</p>
               <h3 class="branch ">Associate Research Analyst</h3>
