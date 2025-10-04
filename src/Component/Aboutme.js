@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import Resume1 from "../Pranshu Yadav.pdf";
+import Resume1 from "../Component/Pranshu Yadav.pdf"
 
 
 function Aboutme() {
