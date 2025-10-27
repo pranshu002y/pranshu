@@ -34,11 +34,11 @@ const Resume = () => {
             </div>
           </div>
           <div className="row-left" data-aos="fade-down-left">
-            <h2 className="edu">MY EXPERENCIE</h2>
+            <h2 className="edu">MY EXPERIENCES </h2>
             <div class="education-box" data-aos="fade-down-left">
               <p class="year">Nov 2024 - Present</p>
               <h3 class="branch ">Associate Research Analyst</h3>
-              <p class="uni">Vaco Binary Semantics </p>
+              <p class="uni">HighSpring </p>
               <p class="mb-0 ">
               Contributed to Google's Gemini model by leading research and product analysis, evaluating 200+ AI responses during Alpha testing, creating data visualizations for strategic teams, and conducting global market research. Currently collaborating with Google AI to troubleshoot model issues, support product development, and provide feedback to engineering teams, ensuring continuous improvement and smooth operation of AI-powered products.
               </p>
