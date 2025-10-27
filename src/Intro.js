@@ -58,9 +58,9 @@ const Intro = () => {
                     </span>
                   </span>
                 </h1>
-                <span className="gallery" onClick={() => navigate("/home")} data-aos="fade-right">
+                <button className="gallery" onClick={() => navigate("/home")} data-aos="fade-right">
                   View gallery
-                </span>
+                </button>
               </div>
             </div>
           </div>
