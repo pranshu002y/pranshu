@@ -37,7 +37,7 @@ const Services = () => {
         <i className="fas fa-paint-brush"></i>
       </div>
       <div className="services-list-items-content">
-      <h3 className="">Data Analysis</h3>
+      <h3 className="">Version Control & Collaboration</h3>
       <p className="mb-0 ">
         
       </p>
@@ -59,7 +59,7 @@ const Services = () => {
         <i className="fas fa-bullhorn"></i>
       </div>
       <div className="services-list-items-content">
-      <h3 className="">Business Analysis</h3>
+      <h3 className="">UI/UX Design Implementation</h3>
       <p className="mb-0 ">
        
       </p>
