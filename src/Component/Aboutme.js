@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import Resume1 from "../Component/Pranshu Yadav.pdf"
-
+import Counter from './Counter';
 
 function Aboutme() {
   return (
@@ -41,8 +41,15 @@ function Aboutme() {
             <div class="c6">
               <div class="featured">
                 <h4 class="img-cent">
-                  <span>1</span></h4>
-                <p class="mb-0 ">Years Experiance</p>
+                <Counter
+  from={0}
+  to={1.5}
+  separator=","
+  direction="up"
+  duration={1}
+  className="count-up-text"
+/></h4>
+                <p class="mb-0 ">Years Experience</p>
               </div>
             </div>
             {/* <div class="c6">
@@ -55,7 +62,15 @@ function Aboutme() {
             <div class="c6">
               <div class="featured">
                 <h4 class="img-cent">
-                  <span>10</span>+</h4>
+                <Counter
+  from={0}
+  to={10}
+  separator=","
+  direction="up"
+  duration={1}
+  className="count-up-text"
+/>
+</h4>
                 <p class="mb-0 ">Projects Done</p>
               </div>
             </div>
