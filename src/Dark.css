@@ -1,15 +1,33 @@
 
 .outer {
   display: flex;
-  width: min(640px);
+  width: min(1024px);
   margin: auto;
   gap: 10px;
 }
 
 .items {
+  position: relative;
   flex: 1;
   transition: flex 0.5s ease-in-out;
+  overflow: hidden;
 }
+
+.items p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
 
 .items:hover {
   flex: 5;

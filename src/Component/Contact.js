@@ -15,7 +15,7 @@ const Contact = () => {
       <p>Gurgaon,Haryana, India</p>
       <div class="contact-buttons">
         <a href="#" class="btn primary">(+91)9336828811</a>
-        <a href="mailto:pranshu002y@gmail.com" class="btn secondary">let's Connect ! →</a>
+        <a href="mailto:pranshu002y@gmail.com" class="btn secondary">let's Connect!</a>
       </div>
     </div>
     <div class="contact-image">

@@ -104,29 +104,38 @@ const Services = () => {
 
 <div class="outer">
   <div class="items">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>System Design</p>
   </div>
   <div class="items">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>Web Development</p>
   </div>
   <div class="items">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>Version Control & Collaboration</p>
   </div>
   <div class="items">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>App Design & Development</p>
   </div>
   <div class="items">
-    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b8/63.jpg" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>UI/UX Design Implementation</p>
   </div>
   <div class="items">
-    <img src="https://curlytales.com/wp-content/uploads/2021/10/Dubai-Frame_Zabeel-Park.jpg" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>Product Analysis</p>
   </div>
   <div class="items">
-    <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/06/23202154/12-must-visit-places-in-Dubai-and-top-things-to-do-07.png" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>Performance Optimization</p>
   </div>
   <div class="items">
-    <img src="https://c.regencyholidays.com/blog/blog/content/images/2022/05/Top-Places-to-Visit-in-Dubai.webp" alt=""/>
+    <img src="https://images.unsplash.com/photo-1762285631862-a2b2c95441a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=654" alt=""/>
+  <p>Database Integration</p>
   </div>
+  
 </div>
 
 
