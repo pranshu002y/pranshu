@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../Dark.css";
 const Services = () => {
   return (
     <section className="services-content" >
@@ -9,7 +9,7 @@ const Services = () => {
          <div className='title-front'>What I do</div>
       </div>
       
-  <div className="services-list">
+  {/* <div className="services-list">
     <div className="services-list-items" data-aos="fade-right">
       <div className="icon">
         <i className="fas fa-palette" />
@@ -98,7 +98,81 @@ const Services = () => {
       </p>
       </div>
     </div>
+  </div> */}
+
+
+
+<div class="outer">
+  <div class="items">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
   </div>
+  <div class="items">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwyC4QnJMLkdNXMKW08TTj7W9HroeOuCwwsQ&s" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b8/63.jpg" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://curlytales.com/wp-content/uploads/2021/10/Dubai-Frame_Zabeel-Park.jpg" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/06/23202154/12-must-visit-places-in-Dubai-and-top-things-to-do-07.png" alt=""/>
+  </div>
+  <div class="items">
+    <img src="https://c.regencyholidays.com/blog/blog/content/images/2022/05/Top-Places-to-Visit-in-Dubai.webp" alt=""/>
+  </div>
+</div>
+
+
+
+
+  {/* <section class="skills-section">
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+        <p>System Design</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+        <p>Web Development</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS" />
+        <p>Version Control & Collaboration</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+        <p>App Design & Development</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+        <p>UI/UX Design Implementation</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub" />
+        <p>Product Analysis</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+        <p>Performance Optimization</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM91T1S4z84bTfnQg-ExIMn9MW_bs43wkg5g&s" alt="Firebase" />
+        <p>Database Integration</p>
+      </div>
+     
+
+     
+     
+    </div>
+  </section> */}
 
 </section>
   )

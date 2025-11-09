@@ -1,3 +1,66 @@
+
+.outer {
+  display: flex;
+  width: min(640px);
+  margin: auto;
+  gap: 10px;
+}
+
+.items {
+  flex: 1;
+  transition: flex 0.5s ease-in-out;
+}
+
+.items:hover {
+  flex: 5;
+}
+
+.outer img {
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+  .outer {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .items {
+    flex: none;
+    width: 100%;
+  
+  }
+
+  .items:hover {
+    flex: none;
+    transform: scale(1.02);
+  }
+
+  .outer img {
+    height: 100px;
+  }
+}
+
+
+@media (max-width: 340px) {
+  .outer img {
+    height: 180px;
+  }
+}
+
+
+
+
+
 .ham{
     font-size: 40px;
     position:fixed;

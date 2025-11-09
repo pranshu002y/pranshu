@@ -1,5 +1,5 @@
 import "../App.css";
-import { FaFacebook } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaVolleyballBall } from "react-icons/fa";
@@ -53,6 +53,11 @@ function rtl1 (e){
           <li>
             <a href="#portfol1">Portfolio</a>
           </li>
+
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+
           
           <li>
             <a href="#contact1">Contact</a>
