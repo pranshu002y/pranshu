@@ -31,13 +31,13 @@ const Contact = () => {
 
 
       <div class="footer-socials">
-      <a href="https://github.com/pranshu002y" target="_blank" aria-label="GitHub">
+      <a href="https://github.com/pranshu002y" target="_blank" rel="noreferrer" aria-label="GitHub">
   <i class="fab fa-github"></i>
 </a>
 
         
-        <a href="https://linkedin.com/in/pranshu-yadav-086b28192/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/pranshu-yadav-086b28192/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
 
