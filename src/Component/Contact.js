@@ -1,9 +1,4 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaVolleyballBall,FaPhoneAlt,FaMailBulk} from "react-icons/fa";
-
 
 const Contact = () => {
   return (
@@ -24,7 +19,7 @@ const Contact = () => {
       </div>
     </div>
     <div class="contact-image">
-      <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg"/>
+      <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg"  alt="profile"/>
    
     </div>
   </section>

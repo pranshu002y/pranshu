@@ -54,36 +54,36 @@ const Skillset = () =>{
       </div>
 
       <div class="skill-card">
-        <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvwgpiqc9FrNeVcW-NQekpPIwIcktyys_nw&s" />
+        <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrvwgpiqc9FrNeVcW-NQekpPIwIcktyys_nw&s"  alt="profile" />
         <p>Netlify</p>
       </div>
 
       <div class="skill-card">
-        <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPARNK1AQ86vt-kFVrGjRrJtZUNcT3-szdg&s" />
+        <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPARNK1AQ86vt-kFVrGjRrJtZUNcT3-szdg&s"   alt="profile"/>
         <p>Postman</p>
       </div>
 
       <div class="skill-card">
-        <img src="   https://images.ctfassets.net/crb83veve8xb/2YfNwMlyl1U0DLVXRgL8TB/9e8474e083f2ba01a296343d84f2282d/vercel_thumbnail.webp" />
+        <img src="   https://images.ctfassets.net/crb83veve8xb/2YfNwMlyl1U0DLVXRgL8TB/9e8474e083f2ba01a296343d84f2282d/vercel_thumbnail.webp"  alt="profile" />
         <p>Vercel</p>
       </div>
 
       <div class="skill-card">
         <img src="    https://img.utdstc.com/icon/dcc/387/dcc38728dbc270465816a1db09b3569255ca48cfcac8047eb2088fdd78d0f8c0:200
-    " />
+    " alt="profile" />
         <p>MS Office</p>
       </div>
 
       <div class="skill-card">
-        <img src="    https://avatars.githubusercontent.com/u/2386673?v=4 " />
+        <img src="    https://avatars.githubusercontent.com/u/2386673?v=4 " alt="profile" />
         <p>GSAP</p>
       </div>
       <div class="skill-card">
-        <img src="   https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/tailwindcss-1633184775.webp   " />
+        <img src="   https://cdnblog.webkul.com/blog/wp-content/uploads/2024/05/tailwindcss-1633184775.webp   " alt="profile" />
         <p>Tailwindcss </p>
       </div>
       <div class="skill-card">
-        <img src="   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0COcg6gxwoZ-aX5uaSd7LGbcwuRen2_M8sg&s  " />
+        <img src="   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0COcg6gxwoZ-aX5uaSd7LGbcwuRen2_M8sg&s  " alt="profile" />
         <p>Material UI</p>
       </div>
 
