@@ -1,7 +1,7 @@
 import React from "react";
 import Aboutme from './Component/Aboutme';
 import Contact from './Component/Contact';
-
+// import Fotter from './Component/Fotter';
 
 import Portfol from './Component/Portfol';
 import Resume from './Component/Resume';
@@ -40,7 +40,7 @@ document.addEventListener('mousemove', (e) => {
           <Contact/>
         </div>
         <div className='container fotr' id='fotr1'>
-          {/* <Fotter/> */}
+     
         </div>
         
         </div>  
