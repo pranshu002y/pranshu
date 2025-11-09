@@ -1,4 +1,5 @@
 import React from "react";
+import Skillset from "./Skillset";
 // import Resume1 from "../../src/Pranshu Yadav.pdf";
 
 const Resume = () => {
@@ -71,49 +72,10 @@ const Resume = () => {
             </div>
           </div>
         </div>
-
-        <h2 className="skills">SKILLSET</h2>
-        <div className="row5">
-          <div className="clmd">
-            <p className="fw"> HTML | CSS | JAVASCRIPT </p>
-            
-          </div>
-
-          <div className="clmd">
-            <p className="fw">GITHUB/GITLAB | C/C++ | ASANA </p>
-            
-          </div>
-
-          <div className="clmd">
-            <p className="fw"> JIRA | SQL | DATA ANALYSIS | QUALITY ANALYSIS | EXCEL </p>
-            
-          </div>
-
-          <div className="clmd">
-            <p className="fw"> REACT JS | NEXT JS | NODE JS | FIGMA </p>
-            
-          </div>
-
-          <div className="clmd">
-            <p className="fw">MATERIAL UI | SASS | FIGMA | BOOTSTRAP </p>
-           
-          </div>
-
-          <div className="clmd">
-            <p className="fw"> TEAM PLAYER | POWER POINT PRESENTATION | ADAPTABLE </p>
-           
-          </div>
-         {/* <div className="div-cv">
-         <a
-            href={Resume1}
-            class="btn btn-pri dwn cv "
-          >
-            Download CV
-          </a>
-         </div> */}
-         
-        </div>
+<Skillset/>
+        
       </div>
+      
     </div>
   );
 };

@@ -13,28 +13,44 @@ const Contact = () => {
         <div className="title-front">Get in Touch</div>
       </div>
 
-      <div className="iscontact">
-        <div className="contact-left">
-          <h2 className="follow">ADDRESSS</h2>
-          <p>Gurgaon,India</p>
-          <p className="tel"> <FaPhoneAlt className="telp"/> (+91)9336828811</p>
-          <p className="tel"> <FaMailBulk className="telp"/> pranshu002y@gmail.com</p>
-          
-        </div>
-        <div className="contact-right">
-          {/* <h2 className="follow">SEND US A NOTE</h2>
-          <div className="contact-right-input">
-          <input className="cri" type="text" placeholder="  Name" />
-          <input className="cri" type="email" placeholder="Email" />
-          </div>
-          <textarea className="txtar" name="sdsf" placeholder="  Enter the text here" id="" cols="30" rows="10"></textarea> */}
-          <button className="btn btn-pri conk"><a href="mailto:pranshu002y@gmail.com">let's be friends
-
-
-</a></button>
-          
-        </div>
+     
+      <section class="contact-banner">
+    <div class="contact-content">
+      <h2>ADDRESSS</h2>
+      <p>Gurgaon,Haryana, India</p>
+      <div class="contact-buttons">
+        <a href="#" class="btn primary">(+91)9336828811</a>
+        <a href="mailto:pranshu002y@gmail.com" class="btn secondary">let's Connect ! →</a>
       </div>
+    </div>
+    <div class="contact-image">
+      <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg"/>
+   
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      
+
+
+      <div class="footer-socials">
+      <a href="https://github.com/pranshu002y" target="_blank" aria-label="GitHub">
+  <i class="fab fa-github"></i>
+</a>
+
+        
+        <a href="https://linkedin.com/in/pranshu-yadav-086b28192/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright © 2025 Pranshu Yadav | All Rights Reserved</p>
+    </div>
+  </footer>
+
     </div>
   );
 };

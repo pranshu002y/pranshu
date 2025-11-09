@@ -72,7 +72,7 @@ const Intro = () => {
                   </span>
                 </h1>
                 <button  className="btn btn-pri dwn" onClick={() => navigate("/home")} data-aos="fade-right">
-             Launch Site
+             View Gallery
                 </button>
               </div>
             </div>

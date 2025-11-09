@@ -59,9 +59,10 @@ function rtl1 (e){
           </li>
         </ul>
         <div class="nav-icon">
-         <a href="https://www.linkedin.com/in/pranshu-yadav-086b28192/"><FaLinkedinIn className="icon" /></a>
-         <a href="https://github.com/pranshu002y"> <FaGithub className="icon" /></a>
-          <a href="https://www.instagram.com/pranshu_yadav15/"><FaVolleyballBall className="icon" /></a>
+        <a href="https://www.linkedin.com/in/pranshu-yadav-086b28192/"  target="_blank"><FaLinkedinIn className="icon" /></a>
+         <a href="https://github.com/pranshu002y"  target="_blank"> <FaGithub className="icon" /></a>
+          <a href="https://www.instagram.com/pranshu_yadav15/"  target="_blank"><FaVolleyballBall className="icon" /></a>
+          
         </div>
       </div>
       
