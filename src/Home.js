@@ -1,7 +1,6 @@
 import React from "react";
 import Aboutme from './Component/Aboutme';
 import Contact from './Component/Contact';
-import Gallery from "./Component/Gallery";
 // import Fotter from './Component/Fotter';
 
 import Portfol from './Component/Portfol';
@@ -36,10 +35,7 @@ document.addEventListener('mousemove', (e) => {
           <Portfol/>
         </div>
 
-        <div className='container portfol' id='gallery'>
-          <Gallery/>
-        </div>
-
+     
 
         <div className='container contact' id='contact1'>
           <Contact/>

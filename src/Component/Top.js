@@ -54,10 +54,7 @@ function rtl1 (e){
             <a href="#portfol1">Portfolio</a>
           </li>
 
-          <li>
-            <a href="#gallery">Gallery</a>
-          </li>
-
+        
           
           <li>
             <a href="#contact1">Contact</a>
