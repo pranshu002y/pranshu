@@ -78,6 +78,15 @@ const Portfol = () => {
               alt=""
             />
           </a>
+
+           <a href="https://pinkflare-seven.vercel.app/">
+            {" "}
+            <img
+              src="https://res.cloudinary.com/dpiatasuq/image/upload/v1768760173/Screenshot_Capture_-_2026-01-18_-_23-45-25_uxox9s.png"
+              alt=""
+            />
+          </a>
+
           <a href="https://pranshu002.vercel.app/">
             {" "}
             <img
