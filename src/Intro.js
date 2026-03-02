@@ -137,37 +137,32 @@ const Intro = () => {
         />
       </div>
 
-      {/* Main Content */}
-      <div className="slider-wrapper">
-        <div className="slider-container">
-          <div className="slide active red">
-            <div className="fake-bg red"></div>
+    
 
-            <div className="slide-content">
-              <div className="image-caption">
-                <span className="line"></span>
-                <span data-aos="fade-right">Pranshu Yadav</span>
-              </div>
+      <section class="hero">
 
-              <div className="title-wrapper">
-                <h1>
-                  <span data-aos="fade-right">Pranshu</span>
-                  <br />
-                  <span data-aos="fade-right">Yadav</span>
-                </h1>
+  <div class="bg-text">
+    PRANSHU<br/>
+    YADAV
+    
+  </div>
 
-                <button
-                  className="btn btn-pri dwn"
+ 
+
+  <div class="center-image">
+    {/* <!-- Replace with your image --> */}
+    <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" alt="Portrait"/>
+
+     <button
+                  className="white-btn"
                   onClick={() => navigate("/home")}
                   data-aos="fade-right"
                 >
                   View Gallery
                 </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  </div>
+
+</section> 
     </div>
   );
 };
