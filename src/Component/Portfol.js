@@ -29,8 +29,32 @@ const Portfol = () => {
               alt=""
             />
           </a>
+           <a href="https://ai-influnder.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675181/fbxotiologrheubkolxf.png"
+              alt=""
+            />
+          </a>
+           <a href="https://mensuration.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675181/t4arbstv6sfzoscq7pdn.png"
+              alt=""
+            />
+          </a>
         </div>
         <div className="insideof">
+           <a href="https://noir-models-tau.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675181/ynpbjnszsl5cp2bngjkz.png"
+              alt=""
+            />
+          </a>
+           <a href="https://artistry-hazel.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675181/xocl4vfnpzcpolngui68.png"
+              alt=""
+            />
+          </a>
           <a href="https://lms-1.netlify.app/accounts/login">
             {" "}
             <img
@@ -64,6 +88,18 @@ const Portfol = () => {
           </a>
         </div>
         <div className="insideof">
+           <a href="https://ai-chat-agent-gold.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675181/decgiftsj4sil5tuej0y.png"
+              alt=""
+            />
+          </a>
+           <a href="https://wedding-flax-zeta-22.vercel.app/">
+            <img
+              src="https://res.cloudinary.com/doqgcssfm/image/upload/v1772675185/uvapa7xncrchzo6bt5oe.png"
+              alt=""
+            />
+          </a>
           <a href="https://thence-virid.vercel.app/">
             {" "}
             <img
