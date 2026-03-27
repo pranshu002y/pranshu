@@ -81,30 +81,6 @@ const Intro = () => {
       "start+=2.8"
     );
 
-    // Hero Text Reveal (staggered)
-    tl.fromTo(
-      ".bg-text span",
-      { y: 200, opacity: 0, rotate: 10, transformOrigin: "left top" },
-      { y: 0, opacity: 1, rotate: 0, duration: 1.5, stagger: 0.2, ease: "power4.out" },
-      "-=0.5"
-    );
-
-    // Center Image Reveal
-    tl.fromTo(
-      ".center-image img",
-      { scale: 0.5, opacity: 0, filter: "blur(20px)" },
-      { scale: 1, opacity: 1, filter: "blur(0px)", duration: 1.5, ease: "power3.out" },
-      "-=1.2"
-    );
-
-    // Button Reveal
-    tl.fromTo(
-      ".white-btn",
-      { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 1, ease: "power3.out" },
-      "-=1.0"
-    );
-
     return () => {
       tl.kill();
     };
@@ -161,36 +137,32 @@ const Intro = () => {
         />
       </div>
 
-    
 
-      <section className="hero">
 
-  <div className="bg-text">
-    <div className="text-line" style={{ overflow: "hidden", display: "inline-block", paddingBottom: "10px" }}>
-      <span style={{ display: "inline-block", color: "transparent", WebkitTextStroke: "2px #000" }}>PRANSHU</span>
-    </div>
-    <br/>
-    <div className="text-line" style={{ overflow: "hidden", display: "inline-block", paddingBottom: "10px" }}>
-      <span style={{ display: "inline-block", color: "transparent", WebkitTextStroke: "2px #000" }}>YADAV</span>
-    </div>
-  </div>
+      <section class="hero">
 
- 
+        <div class="bg-text">
+          PRANSHU<br />
+          YADAV
 
-  <div className="center-image">
-    {/* <!-- Replace with your image --> */}
-    <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" alt="Portrait"/>
+        </div>
 
-     <button
-                  className="white-btn"
-                  onClick={() => navigate("/home")}
-                  // Removed AOS to let GSAP handle it
-                >
-                  View Gallery
-                </button>
-  </div>
 
-</section> 
+
+        <div class="center-image">
+          {/* <!-- Replace with your image --> */}
+          <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" alt="Portrait" />
+
+          <button
+            className="white-btn"
+            onClick={() => navigate("/home")}
+            data-aos="fade-right"
+          >
+            View Gallery
+          </button>
+        </div>
+
+      </section>
     </div>
   );
 };

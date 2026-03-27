@@ -29,7 +29,6 @@ function rtl1 (e){
 
   return (
     <>
-     <div id="minicircle"></div>
       <div className={set ? "bar" : "bar1"}>
 
         <img

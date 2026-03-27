@@ -6,7 +6,6 @@
   padding: 0;
   list-style: none;
   scrollbar-width: none;
-  cursor: none !important;
 }
 
 .contact-banner {
@@ -298,21 +297,17 @@
 }
 
 :root {
-  --fc-white: #f8f9fa;
-  --fc-black: #0a0a0a;
-  --fc--green: #00ff9d;
-  --bg-dark: #050505;
-  --text-light: #e0e0e0;
+  --fc-white: white;
+  --fc-black: black;
+  --fc--green: #20c997;
 }
 
 body {
-  font-family: 'Inter', Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 16px !important;
   scroll-behavior: smooth;
   padding: 0 !important;
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-  overflow-x: hidden;
+  
 }
 
 #minicircle {
@@ -340,16 +335,13 @@ body {
   left: 0;
   width: 250px;
   height: 100%;
-  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(10, 10, 10, 0.8);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  background-color: var(--fc-black);
   color: var(--fc-white) !important;
-  z-index: 100;
 }
 
 .bar1 {
