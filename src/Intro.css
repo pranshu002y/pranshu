@@ -56,12 +56,13 @@ body {
   font-size: clamp(4rem, 12vw, 12rem);
   font-weight: 900;
   line-height: 0.9;
-  color: #000;
+  color: #fff;
   text-align: center;
   white-space: normal;
   pointer-events: none;
   user-select: none;
   z-index: 1;
+  mix-blend-mode: difference;
 }
 
 /* Center Image */
@@ -90,22 +91,28 @@ body {
 /* Button */
 
 .white-btn {
-  background-color: black;
+  background: #000;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
   height: 60px;
   width: 180px;
   border-radius: 50px;
-  border: 2px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
 .white-btn:hover {
-  background-color: white;
+  background: rgba(255, 255, 255, 1);
   color: black;
-  border: 2px solid black;
-  transform: scale(1.08);
+  border: 1px solid white;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.4);
 }
 
 /* ============================= */
