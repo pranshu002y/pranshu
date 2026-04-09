@@ -28,62 +28,47 @@ const Intro = () => {
       },
     });
 
-    // 🔥 Initial setup for ALL images (dynamic)
     loaderImages.forEach((img, index) => {
       gsap.set(img, {
         xPercent: index % 2 === 0 ? -150 : 150,
-        scale: index === loaderImages.length - 1 ? 1.2 : 1,
         opacity: 0,
       });
     });
 
     tl.addLabel("start");
 
-    // Counter animation
-    tl.to(
-      progressObj,
-      {
-        value: 100,
-        duration: 2.5,
-        ease: "power2.inOut",
-        onUpdate: () => {
-          if (counterRef.current) {
-            counterRef.current.innerText = Math.floor(progressObj.value);
-          }
-        },
+    tl.to(progressObj, {
+      value: 100,
+      duration: 2.5,
+      onUpdate: () => {
+        if (counterRef.current) {
+          counterRef.current.innerText = Math.floor(progressObj.value);
+        }
       },
-      "start"
-    );
+    });
 
-    // Image reveal animation (automatic based on number of images)
     loaderImages.forEach((img, index) => {
       tl.to(
         img,
         {
           xPercent: 0,
-          scale: 1,
           opacity: 1,
           duration: 0.7,
-          ease: "power3.out",
         },
         `start+=${0.3 + index * 0.3}`
       );
     });
 
-    // Loader slide up
     tl.to(
       loaderRef.current,
       {
         yPercent: -100,
         duration: 1.2,
-        ease: "power4.inOut",
       },
       "start+=2.8"
     );
 
-    return () => {
-      tl.kill();
-    };
+    return () => tl.kill();
   }, []);
 
   return (
@@ -94,74 +79,66 @@ const Intro = () => {
           <div className="loader-logo">PRANSHU YADAV</div>
 
           <div className="loader-images">
-            <img
-              src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg"
-              alt="1"
-              className="loader-img"
-            />
-
-            <img
-              src="https://res.cloudinary.com/dpiatasuq/image/upload/v1717596593/Screenshot_Capture_-_2024-06-05_-_19-38-47_mnav2m.png"
-              alt="2"
-              className="loader-img"
-            />
-
-            <img
-              src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405097/Screenshot_Capture_-_2026-02-26_-_02-11-22_kchp3s.png"
-              alt="3"
-              className="loader-img"
-            />
-
-            <img
-              src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png"
-              alt="4"
-              className="loader-img"
-            />
+            <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1750786235/IMG_4445_ry3svl.jpg" className="loader-img" />
+            <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1717596593/Screenshot_Capture_-_2024-06-05_-_19-38-47_mnav2m.png" className="loader-img" />
+            <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405097/Screenshot_Capture_-_2026-02-26_-_02-11-22_kchp3s.png" className="loader-img" />
+            <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" className="loader-img" />
           </div>
 
-          <div className="loader-counter" ref={counterRef}>
-            0
-          </div>
+          <div className="loader-counter" ref={counterRef}>0</div>
         </div>
       </div>
 
       {/* Background Video */}
       <div className="video-container">
-        <video
-          className="background-video"
-          src={tate}
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <video className="background-video" src={tate} autoPlay loop muted playsInline />
       </div>
 
+      {/* Hero */}
+      <section className="hero">
+        <div className="container">
+          {/* Rings */}
+          <div className="ring ring1"></div>
+          <div className="ring ring2"></div>
+          <div className="ring ring3"></div>
 
+          {/* Orbits */}
+          <div className="orbit orbit1">
+            <div className="label">Frontend Developer</div>
+          </div>
 
-      <section class="hero">
+          <div className="orbit orbit2">
+            
+            <div className="label" style={{ transform: "rotate(240deg) translateY(-125px) rotate(-240deg)" }}>
+              Web Designer
+            </div>
+          </div>
 
-        <div class="bg-text">
-          PRANSHU<br />
-          YADAV
-
+          <div className="orbit orbit3">
+            
+            <div className="label highlight" style={{ transform: "rotate(140deg) translateY(-175px) rotate(-140deg)" }}>
+            Full Stack Developer
+            </div>
+          
+          </div>
         </div>
 
+        {/* BIG BACK TEXT */}
+        <div className="bg-text">
+          PRANSHU<br />YADAV
+        </div>
 
-
-        <div class="center-image">
-          {/* <!-- Replace with your image --> */}
-          <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" alt="Portrait" />
+        {/* ✅ CENTER IMAGE FIXED */}
+        <div className="center-image">
+          <img src="https://res.cloudinary.com/dpiatasuq/image/upload/v1772405141/Screenshot_Capture_-_2026-03-02_-_04-15-25_vuk7gw.png" />
 
           <button
             className="white-btn"
             onClick={() => navigate("/home")}
-            data-aos="fade-right"
           >
             View Gallery
           </button>
         </div>
-
       </section>
     </div>
   );
