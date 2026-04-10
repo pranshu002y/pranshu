@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react';
 import '../App.css'
 import Resume1 from "../Component/Pranshu Yadav.pdf"
 import Counter from './Counter';
 import "../Profilecard.css";
+import Chatbot from '../Chatbot';
 
 function Aboutme() {
+
+const [showChat, setShowChat] = useState(false);
+
   return (
     <>
       <div className='title'>
@@ -72,8 +76,8 @@ function Aboutme() {
 
   
       <div class="buttons">
-        <button class="join">Connect</button>
-        <button class="consult">Download CV</button>
+        {/* <button class="join" onClick={() => setShowChat(true)}> </button> */}
+        <button class="consult"><a href = {Resume1}>Download CV</a></button>
       </div>
     </div>
   </div>
@@ -120,6 +124,25 @@ function Aboutme() {
             
           </div>
         </div>
+         <div className="floating-chat">
+        <button
+          className="chat-toggle"
+          onClick={() => setShowChat(!showChat)}
+        >
+          🤖
+        </button>
+
+        {showChat && (
+          <div className="chat-window">
+            <div className="chat-header">
+              <span>Ragnar AI</span>
+              <button className= "cross" onClick={() => setShowChat(false)}>✖</button>
+            </div>
+
+            <Chatbot />
+          </div>
+        )}
+          </div>
 
       
 

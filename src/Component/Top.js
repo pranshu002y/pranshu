@@ -8,6 +8,7 @@ import Typewriter from "react-ts-typewriter";
 import { useState ,useEffect} from "react";
 import Resume1 from "../Component/Pranshu Yadav.pdf";
 import { useNavigate } from "react-router-dom";
+// import Chatbot from '../Chatbot';
 function Top() {
   const [clicked, isClicked] = useState(false);
   const [set, isset] = useState(true);
@@ -60,6 +61,7 @@ function rtl1 (e){
           </li>
         </ul>
         <div class="nav-icon">
+          {/* <Chatbot/> */}
         <a href="https://www.linkedin.com/in/pranshu-yadav-086b28192/" target="_blank" rel="noreferrer"><FaLinkedinIn className="icon" /></a>
          <a href="https://github.com/pranshu002y"  target="_blank" rel="noreferrer"> <FaGithub className="icon" /></a>
           <a href="https://www.instagram.com/pranshu_yadav15/" target="_blank" rel="noreferrer"><FaVolleyballBall className="icon" /></a>

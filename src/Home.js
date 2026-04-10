@@ -7,13 +7,14 @@ import Portfol from './Component/Portfol';
 import Resume from './Component/Resume';
 import Services from './Component/Services';
 import Top from './Component/Top';
+
+
 const Home = () => {
 
 
 
   return (
     <>
-
       <div className='main-head'>
         <div className='container top-section ' id='top-section1'>
           <Top />
@@ -37,6 +38,7 @@ const Home = () => {
           <Contact />
         </div>
         <div className='container fotr' id='fotr1'>
+
 
         </div>
 
