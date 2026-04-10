@@ -514,7 +514,7 @@ body {
   align-self: center;
   margin-bottom: 0;
   width: 100%;
-  z-index: 100000;
+  z-index: 999;
 }
 
 .about {
