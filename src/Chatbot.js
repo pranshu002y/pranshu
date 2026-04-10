@@ -5,7 +5,7 @@ export default function EtherealChat() {
   const [messages, setMessages] = useState([
     {
       role: "bot",
-      text: "Welcome back! How can I help you today?"
+      text: "Welcome back! How can I help you today? scroll down to start typing✨"
     }
   ]);
   const [input, setInput] = useState("");
