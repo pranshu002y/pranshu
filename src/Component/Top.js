@@ -6,7 +6,7 @@ import { FaVolleyballBall } from "react-icons/fa";
 import { FcSettings } from "react-icons/fc";
 import Typewriter from "react-ts-typewriter";
 import { useState ,useEffect} from "react";
-import Resume1 from "../Component/pranshu yadav.pdf";
+import Resume1 from "../Component/pranshu-yadav.pdf";
 import { useNavigate } from "react-router-dom";
 // import Chatbot from '../Chatbot';
 function Top() {
@@ -60,7 +60,7 @@ function rtl1 (e){
             <a href="#contact1">Contact</a>
           </li>
         </ul>
-        <div class="nav-icon">
+        <div className="nav-icon">
           {/* <Chatbot/> */}
         <a href="https://www.linkedin.com/in/pranshu-yadav-086b28192/" target="_blank" rel="noreferrer"><FaLinkedinIn className="icon" /></a>
          <a href="https://github.com/pranshu002y"  target="_blank" rel="noreferrer"> <FaGithub className="icon" /></a>

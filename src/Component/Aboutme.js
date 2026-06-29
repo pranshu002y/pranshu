@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css'
-import Resume1 from "../Component/pranshu yadav.pdf"
+import Resume1 from "../Component/pranshu-yadav.pdf";
 import Counter from './Counter';
 import "../Profilecard.css";
 import Chatbot from '../Chatbot';
