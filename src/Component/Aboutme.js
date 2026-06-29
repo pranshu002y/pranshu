@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css'
-import Resume1 from "../Component/pranshu yadav.pdf";
+// import Resume1 from "../Component/pranshu yadav.pdf";
 import Counter from './Counter';
 import "../Profilecard.css";
 import Chatbot from '../Chatbot';
@@ -77,7 +77,7 @@ const [showChat, setShowChat] = useState(false);
   
       <div class="buttons">
         {/* <button class="join" onClick={() => setShowChat(true)}> </button> */}
-        <button class="consult"><a href = {Resume1}>Download CV</a></button>
+        <button class="consult"><a href = "/pranshu yadav.pdf">Download CV</a></button>
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@ import { FaVolleyballBall } from "react-icons/fa";
 import { FcSettings } from "react-icons/fc";
 import Typewriter from "react-ts-typewriter";
 import { useState ,useEffect} from "react";
-import Resume1 from "../Component/pranshu yadav.pdf";
+// import Resume1 from "../Component/pranshu yadav.pdf";
 import { useNavigate } from "react-router-dom";
 // import Chatbot from '../Chatbot';
 function Top() {
@@ -118,7 +118,7 @@ function rtl1 (e){
           />
         </div>
         <div className="hire-mid hire-three">Gurgaon, India.</div>
-        <a href={Resume1}><button className="hiremebtn">Hire Me</button></a>
+        <a href="/pranshu yadav.pdf"><button className="hiremebtn">Hire Me</button></a>
       </div>
     </>
   );
